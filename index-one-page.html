@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from jthemes.net/themes/html/growim/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Sep 2024 07:20:16 GMT -->
+<!-- Mirrored from jthemes.net/themes/html/growim/index-one-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Sep 2024 07:21:05 GMT -->
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -50,7 +50,7 @@
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
-        <header class="main-header sticky-header sticky-header--normal">
+        <header class="main-header sticky-header sticky-header--one-page">
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo">
@@ -60,10 +60,9 @@
                         </a>
                     </div><!-- /.main-header__logo -->
                     <nav class="main-header__nav main-menu">
-                        <ul class="main-menu__list">
-
-                            <li class="dropdown megamenu">
-                                <a href="index-2.html">Home</a>
+                        <ul class="main-menu__list one-page-scroll-menu">
+                            <li class="dropdown megamenu scrollToLink current">
+                                <a href="#home">Home</a>
                                 <ul>
                                     <li>
                                         <section class="home-showcase">
@@ -157,59 +156,12 @@
                                     </li>
                                 </ul>
                             </li>
-
-
-
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Pages</a>
-                                <ul>
-                                    <li class="dropdown">
-                                        <a href="#">Portfolio Page</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="portfolio.html">Our Portfolio</a></li>
-                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#">Team Page</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="faq.html">FAQs</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Services</a>
-                                <ul>
-                                    <li><a href="services.html">Service Page</a></li>
-                                    <li><a href="service-details.html">Service Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li><a href="products.html">Products Page</a></li>
-                                    <li><a href="product-details.html">Product details</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">News</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-grid.html">Blog Grid</a></li>
-                                    <li><a href="blog-list-right.html">Blog Standar</a></li>
-                                    <li><a href="blog-details-right.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
+                            <li class="scrollToLink"><a href="#about">About</a></li>
+                            <li class="scrollToLink"><a href="#services">Services</a></li>
+                            <li class="scrollToLink"><a href="#portfolio">Portfolio</a></li>
+                            <li class="scrollToLink"><a href="#team">Team</a></li>
+                            <li class="scrollToLink"><a href="#testimonial">Testimonial</a></li>
+                            <li class="scrollToLink"><a href="#blog">Blog</a></li>
                         </ul>
                     </nav><!-- /.main-header__nav -->
                     <div class="main-header__right">
@@ -234,7 +186,7 @@
             </div><!-- /.container-fluid -->
         </header><!-- /.main-header -->
         <!-- main-slider-start -->
-        <section class="main-slider-one">
+        <section class="main-slider-one" id="home">
             <div class="main-slider-one__carousel growim-owl__carousel--with-counter owl-carousel" data-owl-options='{
 		"loop": true,
 		"animateOut": "fadeOut",
@@ -244,10 +196,10 @@
 		"autoplayTimeout": 7000,
 		"smartSpeed": 1000,
 		"nav": true,
-        "navText": ["<span class=\"flaticon-left-angle\"></span>","<span class=\"flaticon-right-angle\"></span>"],
+		"navText": ["<span class=\"flaticon-left-angle\"></span>","<span class=\"flaticon-right-angle\"></span>"],
 		"dots": false,
 		"margin": 0
-	    }'>
+		}'>
                 <div class="item">
                     <div class="main-slider-one__item">
                         <div class="main-slider-one__bg" style="background-image: url(assets/images/backgrounds/slider-1-1.png);"></div>
@@ -502,7 +454,7 @@
         </section>
         <!-- Feature End -->
 
-        <section class="about-one">
+        <section class="about-one" id="about">
             <div class="about-one__shape-one" style="background-image: url(assets/images/shapes/about-1-shape-1.png);"></div>
             <div class="about-one__shape-two" style="background-image: url(assets/images/shapes/about-1-shape-2.png);"></div>
             <div class="about-one__shape-three" style="background-image: url(assets/images/shapes/about-1-shape-3.png);"></div>
@@ -563,7 +515,7 @@
         </section><!-- /.about-one -->
 
         <!-- Service Start -->
-        <section class="service-one">
+        <section class="service-one" id="services">
             <div class="service-one__shape-one" style="background-image: url(assets/images/shapes/service-1-shape-1.png);"></div>
             <div class="service-one__shape-two" style="background-image: url(assets/images/shapes/service-1-shape-2.png);"></div>
             <div class="service-one__shape-three" style="background-image: url(assets/images/shapes/service-1-shape-3.png);"></div>
@@ -1188,7 +1140,7 @@
             </div><!-- /.container -->
         </section><!-- /.why-choose-one -->
 
-        <section class="portfolio-one">
+        <section class="portfolio-one" id="portfolio">
             <div class="portfolio-one__shape-one" style="background-image: url(assets/images/shapes/portfolio-1-shape-1.png);"></div>
             <div class="portfolio-one__shape-two" style="background-image: url(assets/images/shapes/portfolio-1-shape-2.png);"></div>
             <div class="portfolio-one__shape-three" style="background-image: url(assets/images/shapes/portfolio-1-shape-3.png);"></div>
@@ -1353,7 +1305,7 @@
             </div>
         </section><!-- /.package-one -->
 
-        <section class="team-one">
+        <section class="team-one" id="team">
             <div class="team-one__shape-one" style="background-image: url(assets/images/shapes/team-1-shape-1.png);"></div>
             <div class="team-one__shape-two" style="background-image: url(assets/images/shapes/blog-1-shape-1.png);"></div>
             <div class="team-one__shape-three" style="background-image: url(assets/images/shapes/team-1-shape-3.png);"></div>
@@ -1523,7 +1475,7 @@
             </div><!-- /.container -->
         </section><!-- /.team-one -->
 
-        <section class="testimonials-one">
+        <section class="testimonials-one" id="testimonial">
             <div class="testimonials-one__shape-one" style="background-image: url(assets/images/shapes/testimonials-1-shape-1.png);"></div>
             <div class="testimonials-one__shape-two" style="background-image: url(assets/images/shapes/testimonials-1-shape-2.png);"></div>
             <div class="testimonials-one__shape-three" style="background-image: url(assets/images/shapes/testimonials-1-shape-3.png);"></div>
@@ -1628,7 +1580,7 @@
             </div>
         </section>
 
-        <section class="blog-one">
+        <section class="blog-one" id="blog">
             <div class="blog-one__shape-one" style="background-image: url(assets/images/shapes/blog-1-shape-1.png);"></div>
             <div class="blog-one__shape-two" style="background-image: url(assets/images/shapes/blog-1-shape-2.png);"></div>
             <div class="blog-one__shape-three" style="background-image: url(assets/images/shapes/blog-1-shape-3.png);"></div>
@@ -2028,5 +1980,5 @@
 </body>
 
 
-<!-- Mirrored from jthemes.net/themes/html/growim/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Sep 2024 07:20:55 GMT -->
+<!-- Mirrored from jthemes.net/themes/html/growim/index-one-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Sep 2024 07:21:05 GMT -->
 </html>
